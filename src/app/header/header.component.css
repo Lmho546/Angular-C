@@ -1,0 +1,56 @@
+header {
+    background-color: orange;
+    border: 2px solid black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+
+.logo {
+    width: 200px;
+}
+
+.textoLogo1 {
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+    font-family: "Manga Temple Bold";
+    color: red;
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    text-align: center;
+  }
+  
+  .textoLogo2 {
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+    font-family: "Manga Temple Bold";
+    color: cyan;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    text-align: center;
+  }
+
+@media (max-width: 870px) {
+    .textoLogo1 {
+      display: none;
+    }
+    .textoLogo2 {
+      display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    .logo {
+      width: 150px;
+    }
+}

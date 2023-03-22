@@ -1,0 +1,76 @@
+.buscarCompleto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .buscarTodo { 
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .barraBuscar {
+    width: 900px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid white;
+    border-radius: 50px;
+    font-size: 30px;
+    padding-left: 20px;
+  }
+
+  .barraBuscar:focus {   
+    outline: none !important;
+  }
+
+  .botonBuscar {
+    cursor: pointer;
+    width: 50px;
+    margin-right: 6px;
+  }
+
+  .carrito {
+    margin-left: 20px;
+    width: 57px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: orange;
+  }
+
+  @media (max-width: 1270px) {
+    .barraBuscar {
+      width: 700px;
+    }
+  }
+
+  @media (max-width: 870px) {
+    .barraBuscar {
+      width: 400px;
+    }
+  }
+
+  @media (max-width: 599px) {
+    .barraBuscar {
+      width: 290px;
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 450px) {
+    .barraBuscar {
+      width: 150px;
+    }
+  }

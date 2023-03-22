@@ -1,0 +1,123 @@
+.fondoBusqueda {
+    background-color: #0F1594;
+    border: 2px solid black;
+  }
+
+  .textoProductos{
+    font-size: 55px;
+    font-family: "Manga Temple Bold";
+    color: red;
+    background-color: black;
+    border: solid 3px green;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .botonFiltrosDerecha {
+    display: none;
+    cursor: pointer;
+    width: 100px;
+    position: absolute;
+    left: 20px;
+  }
+  
+  .botonFiltrosIzquierda {
+    display: none;
+    cursor: pointer;
+    width: 100px;
+    position: absolute;
+    right: 20px;
+  }
+
+  @media (max-width: 1500px) {
+    .textoProductos {
+      font-size: 50px;
+    }
+  }
+
+  @media (max-width: 1270px) {
+    .textoProductos {
+      font-size: 47px;
+    }
+  }
+
+  @media (max-width: 1190px) {
+    .textoProductos {
+      font-size: 46px;
+    }
+  }
+
+  @media (max-width: 1180px) {
+
+    .textoProductos {
+      font-size: 40px;
+      background-color: black;
+      border: solid 6px green;
+      border-radius: 50px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+
+    .botonFiltrosDerecha {
+      display: block;
+      width: 80px;
+      top: 411px;
+    }
+    .botonFiltrosIzquierda {
+      display: block;
+      width: 80px;
+      top: 411px;
+    }
+  }
+
+  @media (max-width: 599px) {
+
+    .textoProductos {
+      font-size: 35px;
+    }
+
+    .botonFiltrosDerecha {
+      width: 70px;
+      top: 460px;
+    }
+    .botonFiltrosIzquierda {
+      width: 70px;
+      top: 460px;
+    }
+  }
+
+  @media (max-width: 480px) {
+
+    .textoProductos {
+      font-size: 30px;
+    }
+
+    .botonFiltrosDerecha {
+      width: 70px;
+      top: 460px;
+    }
+    .botonFiltrosIzquierda {
+      width: 70px;
+      top: 460px;
+    }
+  }
+
+  @media (max-width: 450px) {
+
+    .textoProductos {
+      font-size: 22px;
+    }
+
+    .botonFiltrosDerecha {
+      width: 60px;
+      top: 396px;
+    }
+    .botonFiltrosIzquierda {
+      width: 60px;
+      top: 396px;
+    }
+  }

@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: "Manga Temple Bold";
+    src: url("./assets/font/mangatb.ttf");
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+  a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+  }
+  
+  a:visited {
+    color: black;
+  }
+
+  nav {
+    background-color: black;
+    border: 12px solid black;
+  }
+
+  ul { 
+    list-style: none;
+  }

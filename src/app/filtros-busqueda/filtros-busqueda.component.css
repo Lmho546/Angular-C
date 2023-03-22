@@ -1,0 +1,256 @@
+.busqueda {
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: black;
+    margin: 8px;
+}
+.busqueda.filtrosBusquedaVisible {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-content:center;
+}
+
+.tituloBusqueda {
+    font-size: 45px;
+    font-family: "Times New Roman";
+    color: orange;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+.tituloFiltros {
+    font-size: 33px;
+    font-family: "Times New Roman";
+    color: red;
+    margin-bottom: 20px;
+    margin-left: 6px;
+    margin-right: 6px;
+    text-decoration: underline;
+  }
+
+  .selectBusqueda {
+    font-size: 28px;
+    font-family: "Times New Roman";
+    color: white;
+    background-color: black;
+    margin-bottom: 20px;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  
+  .selectBusqueda option {
+    background-color: black;
+  }
+
+  .checkboxBusqueda {
+    margin: 4px;
+    width: 16px;
+    height: 16px;
+  }
+  
+  #checkboxBusquedaColeccionables {
+    margin-bottom: 20px;
+  }
+  
+  .checkboxBusquedaTexto {
+    font-size: 30px;
+    font-family: "Times New Roman";
+    color: white;
+  }
+
+  .salirFiltros {
+    display: none;
+    cursor: pointer;
+    width: 100px;
+    position: absolute;
+    left: 30px;
+  }
+
+ 
+
+  @media (max-width: 1560px) {
+
+    .tituloBusqueda {
+      font-size: 43px;
+    }
+
+    .tituloFiltros {
+      font-size: 31px;
+    }
+
+    .selectBusqueda {
+      font-size: 26px;
+    }
+
+    .checkboxBusquedaTexto {
+      font-size: 26px;
+    }
+
+  }
+
+  @media (max-width: 1500px) {
+    .checkboxBusqueda {
+      width: 15px;
+      height: 15px;
+    }
+  }
+
+  @media (max-width: 1430px) {
+
+    .tituloBusqueda {
+      font-size: 39px;
+    }
+
+    .tituloFiltros {
+      font-size: 28px;
+    }
+
+    .selectBusqueda {
+      font-size: 22px;
+    }
+
+    .checkboxBusqueda {
+      width: 13px;
+      height: 13px;
+    }
+
+    .checkboxBusquedaTexto {
+      font-size: 23px;
+    }
+
+  }
+
+  @media (max-width: 1270px) {
+
+    .tituloBusqueda {
+      font-size: 37px;
+    }
+
+    .tituloFiltros {
+      font-size: 26px;
+    }
+
+    .selectBusqueda {
+      font-size: 20px;
+    }
+
+    .checkboxBusquedaTexto {
+      font-size: 21px;
+    }
+
+  }
+
+  @media (max-width: 1190px) {
+
+    .tituloBusqueda {
+      font-size: 36px;
+    }
+
+    .tituloFiltros {
+      font-size: 25px;
+    }
+
+    .selectBusqueda {
+      font-size: 19px;
+    }
+
+    .checkboxBusquedaTexto {
+      font-size: 20px;
+    }
+
+    .salirFiltros {
+      display: block;
+      width: 87px;
+      top: 30px;
+    }
+
+  }
+
+  @media (max-width: 1180px) {
+
+    .busqueda {
+      width: 100%;
+      height: 100%;
+      display: none;
+      position: fixed;
+      opacity: 0.9;
+      top: 0%;
+      bottom: 0%;
+      right: 0%;
+      left: 0%;
+      margin: 0px;
+    }
+
+    .tituloBusqueda {
+      font-size: 45px;
+      font-family: "Times New Roman";
+      color: orange;
+      margin-bottom: 30px;
+    }
+
+    .tituloFiltros {
+      font-size: 33px;
+      font-family: "Times New Roman";
+      color: red;
+      margin-bottom: 30px;
+    }
+
+    .selectBusqueda {
+      font-size: 28px;
+      font-family: "Times New Roman";
+      color: white;
+      margin-bottom: 30px;
+    }
+
+    .checkboxBusqueda {
+      width: 16px;
+      height: 16px;
+    }
+
+    .checkboxBusquedaTexto {
+      font-size: 30px;
+      font-family: "Times New Roman";
+      color: white;
+      margin-bottom: 30px;
+    }
+
+  }
+
+  @media (max-width: 450px) {
+
+    .tituloBusqueda {
+      font-size: 41px;
+      font-family: "Times New Roman";
+      color: orange;
+    }
+
+    .tituloFiltros {
+      font-size: 31px;
+      font-family: "Times New Roman";
+      color: red;
+    }
+
+    .selectBusqueda {
+      font-size: 24px;
+      font-family: "Times New Roman";
+      color: white;
+    }
+
+    .checkboxBusqueda {
+      width: 15px;
+      height: 15px;
+    }
+
+    .checkboxBusquedaTexto {
+      font-size: 26px;
+      font-family: "Times New Roman";
+      color: white;
+    }
+
+    .salirFiltros {
+      width: 80px;
+    }
+
+  }
