@@ -160,11 +160,6 @@
       font-size: 20px;
     }
 
-    .salirFiltros {
-      display: block;
-      width: 87px;
-      top: 30px;
-    }
 
   }
 
@@ -214,6 +209,12 @@
       font-family: "Times New Roman";
       color: white;
       margin-bottom: 30px;
+    }
+
+    .salirFiltros {
+      display: block;
+      width: 87px;
+      top: 30px;
     }
 
   }
