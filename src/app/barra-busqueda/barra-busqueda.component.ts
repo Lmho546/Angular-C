@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-barra-busqueda',
@@ -7,4 +7,20 @@ import { Component } from '@angular/core';
 })
 export class BarraBusquedaComponent {
 
+  @Input()
+  clickRegistrarse =  false;
+
+  @Output()
+  clickRegistrarseEmitido = new EventEmitter();
+
+
+
+  activarRegistrarse (){
+
+
+    sessionStorage["paginaRegistroUsuarioActiva"] = true;
+
+  }
+
 }
+

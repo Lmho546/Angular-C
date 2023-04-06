@@ -1,10 +1,11 @@
 <app-header></app-header>
-<app-barra-busqueda></app-barra-busqueda>
-<app-navbar></app-navbar>
-<app-main>
+<app-barra-busqueda [style.display]="clickRegitrarse ?'none':'block'" [clickRegistrarse]="clickRegitrarse" (clickRegistrarseEmitido)="onClickRegistrarse()"></app-barra-busqueda>
+<app-navbar [style.display]="clickRegitrarse ?'none':'block'" [clickRegistrarse]="clickRegitrarse"></app-navbar>
+<app-main-busqueda [style.display]="clickRegitrarse ?'none':'block'" [clickRegistrarse]="clickRegitrarse">
     <app-busqueda-wrapper class="flexbox">
         <app-filtros-busqueda class="flexbox"></app-filtros-busqueda>
         <app-resultados-busqueda class="flexbox flexGrow"></app-resultados-busqueda>
     </app-busqueda-wrapper>
-</app-main>
+</app-main-busqueda>
+<app-main-registro-usuario [style.display]="clickRegitrarse ?'block':'none'" [clickRegistrarse]="clickRegitrarse"></app-main-registro-usuario>
 <app-footer></app-footer>

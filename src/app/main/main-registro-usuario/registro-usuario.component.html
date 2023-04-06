@@ -1,0 +1,26 @@
+<main class="registroTodo">
+    <form (ngSubmit)="botonRegistrarse()" [formGroup]="registroUsuario" class="formularioCompleto">
+        <h1>Registro Usuario</h1>
+        <div *ngFor="let registro of contructorFormulario" class="registros">
+            <label>{{registro.label}}</label>
+            <div>
+            <input 
+            [ngClass]="registro.control.invalid && registro.control.touched  ? 'campoInvalido' : ''" 
+            [formControl]=registro.control 
+            type={{registro.tipo}}
+            placeholder={{registro.label}}
+            >
+            <span [ngClass]="registro.control.invalid && registro.control.touched ? 'simboloInvalido' : 'valido'">*</span>
+            <div *ngIf="registro.control.hasError('required') && registro.control.touched" class="errorValidacion">
+                El campo es requerido.
+            </div>
+            <div *ngIf="registro.control.invalid && registro.control.touched" class="errorValidacion">
+            {{registro.validacion}}
+            </div>
+            </div>
+        </div>
+        <div class="botonRegistrarseTodo">
+            <button type="submit" class="botonRegistrarse">Registrarse</button>
+        </div>
+    </form> 
+</main>

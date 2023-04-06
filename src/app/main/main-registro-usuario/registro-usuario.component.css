@@ -1,0 +1,112 @@
+.registroTodo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    padding: 60px;
+}
+
+.formularioCompleto {
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 6px;
+}
+
+.registros{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+    padding-right: 10px;
+}
+
+input {
+    justify-content: right;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 40px;
+    outline : none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: blue;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+input:focus{
+    border:2px solid green;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: orange;
+    padding: 20px;
+}
+.botonRegistrarseTodo{
+
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.botonRegistrarse{
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    background-color: green;
+    border-radius: 6px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.botonRegistrarse:hover {
+
+    background-color: orange;
+
+}
+
+.campoInvalido {
+
+    border: 2px solid red ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    padding-left: 6px;
+    padding-right: 6px;
+ 
+}
+.campoInvalido:focus {
+
+    border: 2px solid red;
+ 
+}
+
+.simboloInvalido{
+    color:red;
+    position: absolute;
+    font-size: x-large;
+}
+
+.valido{
+    display: none;
+}
+
+.errorValidacion{
+    color:red;
+    text-align: start;
+    margin-top: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
